@@ -13,9 +13,9 @@ To Be Done
 
 ### Different Versions:
 
-| Model  | Data QA Pairs | BatchSize | GPU/Hour  | 
-| ------ | ------ |------ | ------ | 
-| AVA-Mistral-7B-V1  | 12K | 4 | A100/~2h |
-| AVA-Mistral-7B-V2  | 300K | 4 | A100/~10h | 
-| AVA-Mistral-7B-V3  | 1M | 4 | A100/~18h | 
-| AVA-Mistral-7B-V4  | 500K | 4 | A100/~24h | 
+| Model  | Data QA Pairs | BatchSize | GPU/Hour  | link |
+| ------ | ------ |------ | ------ | ------ | 
+| AVA-Mistral-7B-V1  | 12K | 4 | A100/~2h | |
+| AVA-Mistral-7B-V2  | 300K | 4 | A100/~10h | | 
+| AVA-Mistral-7B-V3  | 1M | 4 | A100/~18h | |
+| AVA-Mistral-7B-V4  | 500K | 4 | A100/~24h | | 
