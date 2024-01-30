@@ -58,7 +58,7 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
 ```
 
-Also you can use this [Colab link]()
+You can also use colab link in the jupyter file
 
 -------------------------------------------------
 
