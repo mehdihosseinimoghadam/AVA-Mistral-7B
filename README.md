@@ -30,4 +30,4 @@ All models are hosted in HuggingFace,
 
 ## Answer Comparision to other models:
 
- <img src="https://github.com/mehdihosseinimoghadam/AVA-Mistral-7B/blob/main/AVA.png" height="600" width="940" >
+ <img src="https://github.com/mehdihosseinimoghadam/AVA-Mistral-7B/blob/main/AVA2.jpg" height="600" width="940" >
