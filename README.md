@@ -58,6 +58,12 @@ All models are hosted in HuggingFace,
 | Maral  | 1M | 4 |
 | Llama  | 500K | 4 | 
 
-
+<table width="300">
+  <tr>
+    <td> This is some text </td>
+    <td> This is some somewhat longer block of text </td>
+    <td> This is some very long block of text repeated to make it even longer. This is some very long block of text repeated to make it even longer. This is some very long block of text repeated to make it even longer.  </td>
+  </tr>
+</table>
 
  
