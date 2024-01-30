@@ -35,6 +35,7 @@ All models are hosted in HuggingFace,
 
 [AVA-V4](https://huggingface.co/MehdiHosseiniMoghadam/AVA-Mistral-7B-V4) vs [AVA-V2](https://huggingface.co/MehdiHosseiniMoghadam/AVA-Mistral-7B-V2) vs [Maral](https://huggingface.co/MaralGPT/Maral-7B-alpha-1) vs  [Llama](https://huggingface.co/hdeldar/llama-2-7b-persian-text-1k)
 
+
 ### Q1: 
 ```
 طبق متن زیر ایلان ماسک در کجا به دنیا امده است؟
