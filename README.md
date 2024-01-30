@@ -26,7 +26,39 @@ To Be Done
 
 ### Usage:
 
-All models are hosted in HuggingFace, 
+All models are hosted in HuggingFace, and here is the code for inference:
+
+```py
+from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig
+import torch
+
+model_name_or_id = "MehdiHosseiniMoghadam/AVA-Mistral-7B-V2"
+model = AutoModelForCausalLM.from_pretrained(model_name_or_id, torch_dtype=torch.float16, device_map="auto", low_cpu_mem_usage=True, load_in_8bit=True)
+tokenizer = AutoTokenizer.from_pretrained(model_name_or_id)
+
+prompt = ''
+
+prompt = f"### Human:{prompt}\n### Assistant:"
+
+
+inputs = tokenizer(prompt, return_tensors="pt").to("cuda")
+
+generation_config = GenerationConfig(
+    do_sample=True,
+    top_k=1,
+    temperature=0.99,
+    max_new_tokens=90,
+    pad_token_id=tokenizer.eos_token_id
+)
+
+
+outputs = model.generate(**inputs, generation_config=generation_config)
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+
+
+```
+
+Also you can use this [Colab link]()
 
 -------------------------------------------------
 
