@@ -774,7 +774,8 @@ rl.on('line', (line) => {
 Released 2022 by [Mehdi Hosseini Moghadam](https://github.com/mehdihosseinimoghadam)
 
 Attention ⚠️: The user is responsible for using this model
-And any misuse of the model is the responsibility of the user and not the creator
+
+Any misuse of the model (of any kind) is the responsibility of the user and not the creator
 
 
 ## Contact
