@@ -803,7 +803,7 @@ rl.on('line', (line) => {
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-Released 2022 by [Mehdi Hosseini Moghadam](https://github.com/mehdihosseinimoghadam)
+Released Jan 30, 2024 by [Mehdi Hosseini Moghadam](https://github.com/mehdihosseinimoghadam)
 
 Attention ⚠️: The user is responsible for using this model
 
