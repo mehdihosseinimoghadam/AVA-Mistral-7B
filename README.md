@@ -47,6 +47,45 @@ All models are hosted in HuggingFace,
 
 
 
+<table width="300">
+  <tr>
+    <td> Model </td>
+    <td> Answer </td>
+    <td> Rating  </td>
+  </tr>
+   <tr>
+    <td> AVA-V4 </td>
+    <td> ایلان ریو ماسک در پرتوریا، آفریقای جنوبی به دنیا امده است. او در 18 سالگی به کانادا رفت </td>
+    <td> </td>
+  </tr>
+   <tr>
+    <td> AVA-V2 </td>
+    <td> ایلان ماسک در پرتوریا، آفریقای جنوبی به دنیا آمده است. او در 18 سالگی به کانادا رفت </td>
+    <td>  </td>
+  </tr>
+    <tr>
+    <td> Maral </td>
+    <td> ایلان ماسک در پرتوریا، آفریقای جنوبی به دنیا آمده است </td>
+    <td>   </td>
+  </tr>
+    <tr>
+    <td> Llama </td>
+    <td> اگر او در کجا به دنیا امده باشد، چه کسی او را در کجا می‌دانست؟ </td>
+    <td>  </td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+### Q2: 
+```
+سه قاتل در یک اتاق هستند.. یکی وارد اتاق می شود و یکی از آنها را می کشد. هیچ کس اتاق را ترک نمی کند چند قاتل در اتاق باقی مانده است؟ استدلال خود را توضیح دهید
+
+```
 
 
 
@@ -58,24 +97,31 @@ All models are hosted in HuggingFace,
   </tr>
    <tr>
     <td> AVA-V4 </td>
-    <td> ایلان ریو ماسک در پرتوریا، آفریقای جنوبی به دنیا امده است. او در 18 سالگی به کانادا رفت </td>
-    <td> This is some very long block of text repeated to make it even longer. This is some very long block of text repeated to make it even longer. This is some very long block of text repeated to make it even longer.  </td>
+    <td> پاسخ: در اتاق هنوز یک قاتل باقی مانده است.
+ استدلال: از هر دو قاتل یکی در اتاق باقی مانده است. زیرا هر کدام یکی را می کشد و هیچ کدام از اتاق ترک نمی کند. پس از کشتن دیگری، یکی از قاتلان باقی مانده در اتاق هست </td>
+    <td> </td>
   </tr>
    <tr>
     <td> AVA-V2 </td>
-    <td> ایلان ماسک در پرتوریا، آفریقای جنوبی به دنیا آمده است. او در 18 سالگی به کانادا رفت </td>
-    <td> This is some very long block of text repeated to make it even longer. This is some very long block of text repeated to make it even longer. This is some very long block of text repeated to make it even longer.  </td>
+    <td> در این سوال، اولیه استدلال به این صورت است که در یک اتاق سه قاتل هستند. واقعیت این است که یکی از آنها را می کشد و یکی از آنها را نمی کشد. بنابراین، هیچ کس اتاق را ترک نمی کند و دو قاتل در اتاق باقی مانده است.
+
+اگر در این سوال به استدلال بیشتری افتد، می توانیم ببینیم که هر دو قاتل هم در اتاق هستند و هیچ کدام را نمی کشند. اما در این استدلال اصلی و اولیه، تعداد قاتل های باقی مانده در اتاق به دو تقریباً این است. </td>
+    <td>  </td>
   </tr>
     <tr>
     <td> Maral </td>
-    <td> ایلان ماسک در پرتوریا، آفریقای جنوبی به دنیا آمده است </td>
-    <td> This is some very long block of text repeated to make it even longer. This is some very long block of text repeated to make it even longer. This is some very long block of text repeated to make it even longer.  </td>
+    <td>در این سوال سه قاتل در یک اتاق وجود دارد و یکی از آنها را می کشد. هیچ کس اتاق را ترک نمی کند، بنابراین دو قاتل باقی مانده است. </td>
+    <td>   </td>
   </tr>
     <tr>
     <td> Llama </td>
-    <td> اگر او در کجا به دنیا امده باشد، چه کسی او را در کجا می‌دانست؟ </td>
-    <td> This is some very long block of text repeated to make it even longer. This is some very long block of text repeated to make it even longer. This is some very long block of text repeated to make it even longer.  </td>
+    <td> این استدلال می تواند به یک اتاق با چهار قاتل در آن باشد. یک قاتل وارد اتاق می شود و یکی از آنها را می کشد. هیچ کس اتاق را ترک نمی کند چند قاتل در آن باقی مانده است. این استدلال می تواند به یک اتاق با چهار قاتل در آن باشد که یک قاتل وارد اتاق می شود و یکی از آنها را می کشد و هیچ کس اتاق را ترک نمی کند چند قاتل در آن باقی مانده است. می تواند به یک اتاق با چهار قاتل در آن باشد که یک قاتل وارد اتاق می شود و یکی از آنها را می کشد و هیچ کس اتاق را ترک نمی کند چند قاتل در آن باقی مانده است. می تواند به یک اتاق با چهار قاتل در آن باشد که یک قاتل وارد اتاق می شود و یکی از آنها را می کشد و هیچ کس اتاق را
+ </td>
+    <td>  </td>
   </tr>
 </table>
+
+
+
 
  
