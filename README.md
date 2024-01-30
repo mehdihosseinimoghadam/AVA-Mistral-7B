@@ -19,3 +19,15 @@ To Be Done
 | AVA-Mistral-7B-V2  | 300K | 4 | A100/~10h | | 
 | AVA-Mistral-7B-V3  | 1M | 4 | A100/~18h | |
 | AVA-Mistral-7B-V4  | 500K | 4 | A100/~24h | | 
+
+-------------------------------------------------
+
+### Usage:
+
+All models are hosted in HuggingFace, 
+
+-------------------------------------------------
+
+## Answer Comparision to other models:
+
+ <img src="https://github.com/mehdihosseinimoghadam/AVA-Mistral-7B/blob/main/AVA.png" height="600" width="940" >
