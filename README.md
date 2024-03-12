@@ -1,4 +1,4 @@
-# AVA-Mistral-7B
+# AVA-Mistral-7B / Persian Mistral 7B
 
 
  <img src="https://github.com/mehdihosseinimoghadam/AVA-Mistral-7B/blob/main/AVA.png" height="600" width="940" >
@@ -805,7 +805,7 @@ rl.on('line', (line) => {
 
 Released Jan 30, 2024 by [Mehdi Hosseini Moghadam](https://github.com/mehdihosseinimoghadam)
 
-Attention ⚠️: The user is responsible for using this model
+Attention ⚠️: The user is responsible for using AVA-Mistral-7B / Persian Mistral 7B
 
 Any misuse of the model (of any kind) is the responsibility of the user and not the creator
 
